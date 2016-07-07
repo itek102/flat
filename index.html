@@ -8,7 +8,12 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
-
+     <!-- Flat -->
+    <link href="css/flat.css" rel="stylesheet">
+         <!-- Scroll -->
+    <link href="css/onepage-scroll.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Nunito|Roboto+Condensed&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -17,11 +22,84 @@
     <![endif]-->
   </head>
   <body>
-   <div class="container-fluid"></div>
+  <div class="main">
+  <section class="first-slide">
+   <div class="container none-padding">
+               <nav class="navbar navbar-inverse none-background" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+   <h1 class="nunito-font">FlatSite</h1>
+               <span id="slogan">Современность в простоте</span>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right roboto-font top-nav">
+        <li><a class='active' href="#">Что такое Flat-дизайн?</a></li>
+        <li><a href="#">Где применяется?</a></li>
+        <li><a href="#">Основные принципы</a></li>
+        <li><a href="#">Будущее рядом</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div>
+<div class="container background-main">
+    <div class="row">
+    </div>
+</div>
+</section>
+    <section class="second-slide">
+   <div class="container none-padding">
+               <nav class="navbar navbar-inverse none-background" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+   <h1 class="nunito-font">FlatSite</h1>
+               <span id="slogan">Современность в простоте</span>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right roboto-font top-nav">
+        <li><a class='active' href="#">Что такое Flat-дизайн?</a></li>
+        <li><a href="#">Где применяется?</a></li>
+        <li><a href="#">Основные принципы</a></li>
+        <li><a href="#">Будущее рядом</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div>
+<div class="container background-main">
+    <div class="row">
+    </div>
+</div>
+</section>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.onepage-scroll.js"></script>
+    <script>
+      $(document).ready(function() {
+          $(".main").onepage_scroll();
+      })
+      </script>
   </body>
 </html>

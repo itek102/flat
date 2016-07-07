@@ -1,0 +1,49 @@
+body {
+background-color: #29b8c6;
+}
+
+.nunito-font {
+    font-family: Nunito, sans-serif;
+    color: azure;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+#slogan {
+    font-family: 'Roboto Condensed';
+    color: azure;
+    font-size: 19px;
+}
+
+.none-background {
+    background: none;
+    border: none;
+    color: azure;
+}
+
+.roboto-font {
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+}
+.none-margin {
+    margin: 0;
+}
+.none-padding {
+    padding: 0;
+}
+.top-nav {
+    margin-top: 20px;
+}
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+.first-slide {
+    background-image: url(../img/bg/main2.jpg);
+    background-size: cover;
+}
+.second-slide {
+    background-image: url(../img/bg/main.jpg);
+    background-size: cover;
+}
