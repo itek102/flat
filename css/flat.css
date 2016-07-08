@@ -26,6 +26,11 @@ background-color: #29b8c6;
     font-family: 'Roboto Condensed';
     font-size: 16px;
 }
+.roboto-font-white {
+	color: azure;
+    font-family: 'Roboto Condensed';
+    font-size: 40px
+}
 .none-margin {
     margin: 0;
 }
